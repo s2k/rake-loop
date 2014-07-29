@@ -1,0 +1,43 @@
+(in /Users/stephan/dev/rake_loop)
+bundle exec rake spec:all
+rake aborted!
+Interrupt: 
+/Users/stephan/dev/rake_loop/Rakefile:67:in `block in <top (required)>'
+/Users/stephan/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `eval'
+/Users/stephan/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => spec
+(See full trace by running task with --trace)
+/Users/stephan/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/openssl/ssl.rb:46:in `<class:SSLContext>': Interrupt
+	from /Users/stephan/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/openssl/ssl.rb:22:in `<module:SSL>'
+	from /Users/stephan/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/openssl/ssl.rb:21:in `<module:OpenSSL>'
+	from /Users/stephan/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/openssl/ssl.rb:20:in `<top (required)>'
+	from /Users/stephan/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from /Users/stephan/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from /Users/stephan/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/openssl.rb:24:in `<top (required)>'
+	from /Users/stephan/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from /Users/stephan/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from /Users/stephan/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/securerandom.rb:2:in `<top (required)>'
+	from /Users/stephan/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from /Users/stephan/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from /Users/stephan/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/resolv.rb:7:in `<top (required)>'
+	from /Users/stephan/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from /Users/stephan/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from /Users/stephan/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/rubygems/remote_fetcher.rb:5:in `<top (required)>'
+	from /Users/stephan/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from /Users/stephan/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from /Users/stephan/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/rubygems/spec_fetcher.rb:1:in `<top (required)>'
+	from /Users/stephan/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from /Users/stephan/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from /Users/stephan/.rvm/gems/ruby-2.1.2/gems/bundler-1.6.2/lib/bundler/source/rubygems.rb:3:in `<top (required)>'
+	from /Users/stephan/.rvm/gems/ruby-2.1.2/gems/bundler-1.6.2/lib/bundler/dsl.rb:31:in `rubygems_source'
+	from /Users/stephan/.rvm/gems/ruby-2.1.2/gems/bundler-1.6.2/lib/bundler/dsl.rb:127:in `source'
+	from /Users/stephan/dev/rake_loop/Gemfile:1:in `eval_gemfile'
+	from /Users/stephan/.rvm/gems/ruby-2.1.2/gems/bundler-1.6.2/lib/bundler/dsl.rb:36:in `instance_eval'
+	from /Users/stephan/.rvm/gems/ruby-2.1.2/gems/bundler-1.6.2/lib/bundler/dsl.rb:36:in `eval_gemfile'
+	from /Users/stephan/.rvm/gems/ruby-2.1.2/gems/bundler-1.6.2/lib/bundler/dsl.rb:10:in `evaluate'
+	from /Users/stephan/.rvm/gems/ruby-2.1.2/gems/bundler-1.6.2/lib/bundler/definition.rb:26:in `build'
+	from /Users/stephan/.rvm/gems/ruby-2.1.2/gems/bundler-1.6.2/lib/bundler.rb:153:in `definition'
+	from /Users/stephan/.rvm/gems/ruby-2.1.2/gems/bundler-1.6.2/lib/bundler.rb:116:in `setup'
+	from /Users/stephan/.rvm/gems/ruby-2.1.2/gems/bundler-1.6.2/lib/bundler/setup.rb:17:in `<top (required)>'
+	from /Users/stephan/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from /Users/stephan/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require'
